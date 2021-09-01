@@ -1,0 +1,53 @@
+[app/ui]
+version = 8.2.2
+modtime = 1630333150.931194000
+
+[app/launcher]
+version = 8.2.2
+modtime = 1630333150.931863000
+
+[props/modbus%3Adetailed/REPORT-modbus%3Adetailed]
+access = read : [ * ], write : [ admin ]
+owner = admin
+version = 8.2.2
+modtime = 1630333816.476787000
+
+[props/modbus%3Asimple/REPORT-modbus_simple]
+access = read : [ * ], write : [ admin ]
+owner = admin
+version = 8.2.2
+modtime = 1630333694.689264000
+
+[props/modbus%3Areg%3Achange/REPORT-modbus_reg_change]
+access = read : [ * ], write : [ admin ]
+owner = admin
+version = 8.2.2
+modtime = 1630333809.346365000
+
+[lookups/modbus_hosts.csv]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 8.2.2
+modtime = 1630352003.242575000
+
+[savedsearches/MITM%20Attack%20Detected%20on%20Modbus%20Register]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+version = 8.2.2
+modtime = 1630352914.296099000
+
+[savedsearches/False%20Modbus%20Master%20Detected]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+version = 8.2.2
+modtime = 1630353411.981483000
+
+[savedsearches/Replay%20Attack%20Detected%20on%20Modbus]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+version = 8.2.2
+modtime = 1630516633.348325000

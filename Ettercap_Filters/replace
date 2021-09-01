@@ -1,0 +1,4 @@
+if (search(DATA.data, "\x04\xd2")) {
+    replace("\x04\xd2", "\x04\x57");
+    msg("Replaced");
+}
